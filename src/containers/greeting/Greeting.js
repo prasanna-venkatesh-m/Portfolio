@@ -43,6 +43,8 @@ export default function Greeting() {
                 {greeting.resumeLink && (
                   <a
                     href="https://drive.google.com/file/d/1mcrC9haueynJTaoKIYWKUY0RcL9EbgY8/view?usp=drivesdk"
+                    // target="_blank"
+                    // rel="noopener noreferrer"
                     download="Resume.pdf"
                     className="download-link-button"
                   >
